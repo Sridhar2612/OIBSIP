@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🍕 SliceCraft — Production-Grade Pizza Delivery & Inventory Management Platform
 
 An end-to-end full-stack MERN application built with real-time Socket.IO synchronization, strict server-side price & stock verification, atomic inventory deduction, Razorpay payment gateway integration, automated low-stock email alerts via `node-cron`, and dedicated customer and super-admin operations portals.
@@ -145,3 +146,6 @@ node server/tests/test-runner.js
 * `GET /api/admin/inventory` — Stock levels with threshold alerts
 * `PATCH /api/admin/inventory/:id` — Restock item or adjust threshold
 * `POST /api/admin/inventory/check-alerts` — Trigger instant watchdog inventory scan
+=======
+# OIBSIP
+>>>>>>> 116765ce3749ba6f85158b900c7ada08b631cf2c

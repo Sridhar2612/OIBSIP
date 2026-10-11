@@ -1,0 +1,15 @@
+{
+  "name": "pizza-delivery-platform",
+  "version": "1.0.0",
+  "description": "Production-Grade Pizza Delivery & Inventory Management Platform",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": ["pizza", "mern", "inventory", "razorpay", "socketio"],
+  "author": "",
+  "license": "ISC"
+}
